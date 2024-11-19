@@ -1,0 +1,56 @@
+/* First do teh normal style and then do active styloe which will come after we click on input */
+input{
+background-color: rgb(230, 220, 220);
+color:red;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+}
+
+input:active{
+    background-color: rgb(61, 59, 59);
+    color:white;
+    font-weight:bold;
+}  
+p   {
+   color:blue;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: underline;
+}    
+p:active
+{
+    color:red;
+}
+button{
+    background-color:darkgreen;
+    width:100px;
+    height:40px;
+    color:white;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-style: italic;
+}
+button:hover{
+    background-color:lightgreen;
+    color:black;
+
+}
+a:link{
+    color:green;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+}
+a:visited{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:12px;
+}
+body{
+    background-color: rgb(160, 218, 160);
+}
