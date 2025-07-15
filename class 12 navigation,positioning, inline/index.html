@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+dont care
+</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-----------------------Positioning--------------------->
+<!--To set the position we can use margin and padding but apart fom that we have another option called as 
+position:absolute
+top:
+left
+right
+bottom
+
+These all can be adjusted according to requirement. if we need to set text on image or if we need to put image on image, or if we
+need to put button on image on any kind of situatio  where margin does not work use this.
+
+First always use margin to give space from left, right, top, bottom side. if does not work then use
+position :absolute;
+left
+right\top:
+bottom
+-->
+
+
+
+<!---------------------------Display Properties-------------------------->
+<!--This means if we want to put everything in one line or vertically.
+1. display:inline : it puts all tags in one line.eg : if images, button or text are not in one line and you want all of them in one line
+then use this.
+2. display:inline-block: it puts all div tags in one line. so if you have created tags like  button, images in div tag and you want that in one line
+then use this 
+
+3. display:block : if tags are already in one line but you want in next line and do not want in same line then use this
+4. display:none : this removes all display properties in case if its there.-->
+
+<!----Navigation bar-->
+<!-- is at top with home about us contact us login sign up etc and sometimes logo too, search bar too-->
+<!--Steps
+1. create three div tags always minimum. one div tag where you can give logo image, one div tag where you can write home abouts us and contact us etc.. means middle part coding
+ and third div tag where we do whatever is on right side.
+ one div tag : left side tag
+ second div tag : middle part coding
+ third div tag : right part coding
+
+ for middle part use <ul></ul> <li> tags
+-->
+
+<div class="one">
+    <img>
+</div>
+<div class="second">
+    <ul>
+        <li>Home</li>
+        <li>Aboust Us</li>
+        <li>Products</li>
+    </ul>
+</div>
+<div class="third">
+<p id="i">Login</p>
+<p id="i1">Sign up</p>
+</div><br><br><br>
+<img src="/class10 special effect/Jhon.jpg">
+<!--create button on top of image-->
+<button>More Details</button>
+</body>
+</html>

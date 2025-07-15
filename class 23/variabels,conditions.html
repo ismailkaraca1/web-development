@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Variables and Conditions</title>
+</head>
+<body>
+<script>
+//------------------------Variables-------------------
+// Variables are containers where we can store data like strings, numbers, and boolean values (True/False).
+
+// Rules to create a variable or give variable names:
+// 1. Variable names must start with a letter, no numbers at the start.
+// 2. No special characters are allowed except "_"
+// 3. No spaces are allowed in variable names.
+// 4. A variable can store only one value at a time.
+
+let name = "sakshi";
+document.write(name + "<br>");
+
+let age = 10;
+document.write(age + "<br>");
+
+var country = "Turkey";
+document.write(country + "<br>");
+
+// Note: Always put +"<br>" at the end to make the answer go to the next line. It is a break tag in HTML which we can use in JS.
+
+// Create two variables, n1 and n2, and store numbers in them. Then add these two variables and print the answer.
+let n1 = 22;
+let n2 = 999;
+let total = n1 + n2;
+document.write(total + "<br>");
+
+//---------------------------------CONDITIONS----------------------------
+// Conditions mean if one thing happens, then another thing will happen. If the condition doesn't happen, then the else part is executed.
+
+// Create a variable and store a number in it. Check if that number is greater than 18, then print "you are eligible for driving"; else, print "you cannot get the license".
+let number3 = 20;
+if (number3 > 18) {
+    document.write('you will get the license');
+} else {
+    document.write('you will not get the license');
+}
+
+// Create a variable and write your favorite subject. If the subject is equal to "english", then print "excellent"; else, print "terrible".
+let subject = 'english';
+if (subject == 'english') {
+    document.write('excellent');
+} else {
+    document.write('terrible');
+}
+
+// Fixing the "video game" variable name: no spaces in variable names.
+let videoGame = 'all out';
+if (videoGame == 'all out') {
+    document.write('pro gamer');
+} else {
+    document.write('noob!!!!!!!');
+}
+
+//----------------------------------Assignment-----------------
+// Create three variables num1, num2, num3, and store numbers in all three.
+// Create a variable total1 and add all variables in it. Then print total1 on the screen.
+// Then create another variable subtract and subtract all variables, then print the subtract variable on the screen.
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+let total1 = num1 + num2 + num3;
+document.write('Total: ' + total1 + "<br>");
+
+let subtract = num1 - num2 - num3;
+document.write('Subtraction Result: ' + subtract + "<br>");
+//create a variable and store your map score check if your score is greater then 15 then print your pass else print you failed
+let question2=9
+if(question2>50)
+{
+document.write('never been better'+'<br>')
+}
+else{
+    document.write('you smell like cheese curns'+'<br>')
+}
+//---------------assignmet-------
+// create variable and store a country name in that. if country is equal to uk then print i love uk else if country is equal to 
+// germany then print i love germany else print nothing.
+let question3='country'
+if(question3=='turkey')
+{
+document.write('you are a muslim')
+}
+else{
+document.write('you are not a muslim')
+}
+</script>
+</body>
+</html>

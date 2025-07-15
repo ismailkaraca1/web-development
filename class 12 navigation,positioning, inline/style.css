@@ -1,0 +1,35 @@
+button{
+    position:absolute;
+    top:260px;
+    left:40px;
+    background-color: maroon;
+    padding:13px;
+    border-radius: 20px;
+    color:white;
+}
+ul li {
+    display:inline;
+    margin-left:30px;
+    font-size:30px;
+    color:red;
+    font-weight:300;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#i, #i1{
+    display:inline;
+    margin-left:40px;
+    font-size:30px;
+    color:red;
+    font-weight:300;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.second, .third{
+    display:inline-block;
+    font-size:30px;
+    color:red;
+    font-weight:300;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+}

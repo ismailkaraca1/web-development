@@ -1,0 +1,60 @@
+div ul li{
+display:inline;/* first put poduct, specs, contsct in one line */
+margin-left:50px;
+font-size:20px;
+font-family:sans-serif;
+font-style:italic;
+font-weight:bold;
+color:gray;
+}
+.logo1,.list,.cart{
+display:inline-block;/* here logo , navigation bar , cart image in one line */
+margin-left:90px;
+}
+.logo1 img, .logo1 h1{
+    display:inline; /* here putting logo and three dots in one line*/
+}
+.cart img{
+    position:absolute;
+    top:20px;
+    left:1400px;
+}
+#i1{
+width:400px;
+height:400px;
+}
+.div1,.div2{
+display:inline-block;
+}
+.div1{
+    position:absolute;
+   top:200px;
+   left:100px;
+}
+.div2{
+    position:absolute;
+    top:140px;
+    left:900px;
+}
+button{
+    font-size:20px;
+    font-weight:200px;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    color:aqua;
+    background-color:blue;
+    width:200px;
+    height:50px;
+}
+h1{
+    font-size:27px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(79, 113, 207);
+    font-style: italic;
+}
+p{
+    font-size:20px;  
+    color:rgb(79, 113, 207);
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+}
