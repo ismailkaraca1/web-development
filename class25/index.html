@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+c
+</title>
+</head>
+<body>
+<script>
+//----------------------------------string puptions------------------
+//1.lenth:use to find to find the size of the strength
+let s='ismail'
+let r=s.length
+document.write(r+'<br>')
+//2.toUppercase:use to convert the string into upper case
+let r1=s.toUpperCase()
+document.write(r1+'<br>')
+//3.toLowercase:use to convert to small letters
+let r2=s.toLowerCase()
+document.write(r2+'<br>')
+//4.charAt:use to find out the character at the given index
+let r3=s.charAt(2)
+document.write(r3+'<br>')
+//5.sort:use to sort the string in alphabetical order
+let r4=s.split(" ").sort().join(" ")
+document.write(r4+'<br>')
+//6.ofindex:use to find the index of the given character in the string
+let r5=s.indexOf ('j')
+document.write(r5+'<br>')
+//7.reverse:use to reverse the string
+let r6=s.split(" ").reverse().join(" ")
+document.write(r6+'<br>')
+//8.split:use to split the string into array
+let r7=s.split('')
+document.write(r7+"<br>")
+//9.replace:use to replace the given character with the new one
+let r8=s.replace('i','a')
+document.write(r8+'<br>')
+//--array functions--
+//1.push:use to add the new element at the end of the array
+let arr=([1,2,3,4,5])
+arr.push(6)
+document.write(arr+'<br>')
+//2.pop:use to remove the last element from the array
+let arr1=([1,2,3,4,5])
+arr1.pop()
+document.write(arr1+'<br>')
+//3.shift:use to remove the first element from the array
+let arr2=([1,2,3,4,5])
+arr2.shift()
+document.write(arr2+'<br>')
+//4.unshift:use to add the new element at the start of the array
+let arr3=([1,2,3,4,5])
+arr3.unshift(0)
+document.write(arr3+'<br>')
+//5.splice:use to add the new element at the given index of the array
+let arr4=([1,2,3,4,5])
+arr4.splice(2,0,6)
+document.write(arr4+'<br>')
+//6.slice:use to remove the element from the given index in the array
+let arr5=([1,2,3,4,5])
+arr5.slice(2,3)
+document.write(arr5+'<br>')
+</script>
+</body>
+</html>

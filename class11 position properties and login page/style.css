@@ -1,0 +1,17 @@
+h3{
+color:blue;
+font-size:20xp;
+font-weight:900;
+font-style:italic;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+background-color: blueviolet; 
+}
+p{
+color:blanchedalmond;
+font-size:20xp;
+font-weight:border;
+font-style:italic;
+font-family:sans-serif;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+class7 CSS Selector
+</title>
+<style>
+    .ismail{
+        color:red;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        border: 2px solid green;
+    }
+
+    #id1{
+    color:red;
+    }
+
+    #id2{
+    color:green;
+    }
+    #id3{
+    color:blue;
+    }
+    #id4{
+      color:yellow;  
+    }
+
+    h4, h3{
+        color:green;
+    }
+</style>
+</head>
+<body>
+    <!--------------------------------CSS Selector-------------------------->
+    <!--1. class : This means we give one class name to those tags which we want to do same CSS. let say we have 2 or 3 different tags whom we want to do same CSS.
+    One way to do is doing their CSS seperately which will be time taking. other way is we can give same class na e to all of them and then later do CSS
+    to that class this will save our time. In short we can say that class is a group which every tag has same CSS give same classname to them
+    eg : h1 tag and p tag if they have same CSS, then give same classname to them and later do CSS to taht classname. 
+    . classname is always given in opening tag. also we can give any classname. when css is done in seperate file. then use.classname{}
+
+    .classname{
+    here do all css
+    }
+    -->
+
+    <h1 class="ismail">Hello this is ismail</h1>
+    <p class="ismail">hello this is good</p>
+
+    <!--2. id : is is used when we have same tag but we want tod o different CSS. Let say we have 4 h2 tags  and we want to do different CSS to all of them
+     then in that case we can give seperate ID  to all of them.  we give id names in opening tag. 
+
+     syntax to use id in css
+
+     #idname{
+     here do all css
+     }
+    -->
+
+    <h2 id="id1">
+  This is first 
+    </h2>
+    <h2 id="id2">
+        This is second
+    </h2>
+    <h2 id="id3"">
+This is third
+</h2>
+<h2 id="id4">
+    This is fourth
+</h2>
+<!--3. group selector :  which ever tags has same CSS together we can do styling of taht tag-->
+<h4>This is nice</h4>
+<h3>This is h3</h3>
+</body>
+</html>
