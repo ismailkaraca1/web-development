@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Header */
+
+.goldencake{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:30px;
+    font-size:50px;
+}
+
+/* Navigation */
+
+.nub{
+    background:#444;
+    color:white;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:18px;
+    font-size:20px;
+    flex-wrap:wrap;
+}
+
+.nub p{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.nub p:hover{
+    color:gold;
+}
+
+/* Project Section */
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+/* Project Card */
+
+.project{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+    text-align:center;
+}
+
+.project:hover{
+    transform:translateY(-10px);
+}
+
+.project img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.project h2{
+    padding:20px;
+    color:#333;
+}
+
+/* Button */
+
+.project a{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:12px 25px;
+    background:#0077ff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.project a:hover{
+    background:#0056cc;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .goldencake{
+        font-size:35px;
+    }
+
+    .nub{
+        flex-direction:column;
+        text-align:center;
+        gap:15px;
+    }
+
+    .container{
+        width:95%;
+    }
+}
+.nub p{
+display:inline;
+margin-left:100px;
+}
+.goldencake, .nub{
+display:inline-block;
+color:rgb(69, 52, 7);
+font-size:25px;
+}
+.sıfırkilometrebirarabaalırım{
+width:400px;
+height:400px;
+}
+.wiisports{
+background-color:darkgreen;
+color:violet;
+width:400px;
+height:400px;
+}
+body{
+background-color:rgb(227, 192, 155);
+}
+.mammamia{
+font-size:30px;
+font-family:Arial, Helvetica, sans-serif;
+font-style:italic;
+line-height:60px;
+color:red;
+}
+.eduaitment{
+width:400px;
+height:525px;
+}
+.rampapapaparampapapa{
+width:400px;
+height:400px;
+}
+.sakshiinreallife{
+width:400px;
+height:400px;
+}
+.schoollish{
+width:600px;
+height:400px;
+}
+.scratch1,.scratch2,.scratch3{
+width:150px;
+height:75px;
+}
+.scratch4,.scratch5,.scratch6{
+width:75px;
+height:75px;
+}
+.scratch7,.scratch8,.scratch9{
+width:75px;
+height:75px;
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+autism
+</title>
+</head>
+<body>
+
+    <!--heading tags-->
+<p>
+h1,h2,h3,h4,h5,h6. for heading tags
+p tag is used to ve normal text
+</p>
+
+<h1>
+
+    Hello this is good
+</h1>
+
+<img src="images/1.jpg" >
+
+<!--
+form tags used to create contact form, sign up form, login form
+-->
+<form>
+<label>Username </label>
+<input type="text">
+
+<label>Password </label>
+<input type="password">
+
+<label>Email</label>
+<input type="email"> 
+
+<button>Submit</button>
+</form>
+
+<!--
+List tags create a list
+
+ordered list <ol> tag 
+unordred list <ul>
+
+    ordred lits is number list 
+    Unordred list is bullet list
+
+-->
+
+<ol>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Pineapple</li>
+</ol>
+
+<ul>
+    <li>Banana</li>
+    <li>Pineapple</li>
+</ul>
+
+
+<!--
+
+a tag to go from one page to other
+
+-->
+
+<a href="#">Click here</a>
+
+
+<!--
+
+table tag to create table 
+
+th to give table heading 
+td table data to value 
+tr table row to have data in next/new line
+-->
+
+<table border="2">
+<tr>
+
+<tr> 
+
+    <th>Name</th>
+    <th>Age</th>
+    <th>Marks</th>
+    
+</tr>
+
+<tr>
+    <td>jj</td>
+    <td>18</td>
+    <td>77</td>
+</tr>
+</table>
+
+
+<!--
+navigation bar  at top of almost every website 
+
+use ul lin tag abd then use display : inline;
+
+
+
+ul li {
+display :inline;
+margin-left : 100px;
+
+}
+-->
+
+<ul>
+    <li>Home</li>
+    <li>Products</li>
+    <li>sign up</li>
+</ul>
+
+
+<!---------------CSS Properties------------
+background color/image 
+
+background-color:green;
+background-image:url("");
+background-size:cover;
+background-repeat:no-repeat;
+
+
+text Style
+
+font-size:20px;
+font-style:italic;
+font-family: Franklin;
+font-weight:bold;
+color:brown;
+text-decoration:underline;
+text-transform : upperase;
+
+
+input box, button Style
+width : 200px; to incrase he size of button or inpytbox
+height:200px;
+background-color:green;
+color:white;
+border-radius :20px; makes round in shape  th button or inputbox
+font-style : italic;
+font-family : arial; text style is also given since text is there in button 
+
+
+
+position 
+margin-left, margin-bottom, margin-right, margin-top: 20px;
+
+if margin does not work use below
+position : absolute;
+left:20px;
+right:20px;
+
+space inside the input button 
+
+padding-left, padding-right, padding-top, padding-bottom : 20 px;
+
+hover effect : when we put our mouse on someting the style chnages 
+button {
+color:  orange ;
+
+}
+
+button : hover {
+ color:green;
+}
+
+
+we do all style code in styke tag in head tag 
+
+or w ecan create a new file and do code in that connect new file with html 
+
+<link href="style.css" rel="stylesheet">
+
+-->
+
+
+<!--
+Js
+
+use script tag to js code 
+
+or we can create seperate file and connect the file html using script tag 
+
+
+<script src="sc.js">
+
+</script>
+
+
+
+
+-->
+
+<script>
+//variables : stores values numbers, strings boolean values 
+//text is always written in " " or ''. ; always at the end of line in javascript
+// to comments in Js
+
+let a =3;
+let name="Ismail";
+
+//prints message 
+document.write(a);
+
+//loops : repeat the code for sometime 
+//while loop, for loop, for-in loop, for-of loop
+
+//print ismail 10 times 
+let aa=1; // when loop starts
+while (aa<=10){// when loop ends
+    document.write("Ismail");// code to repeat
+     aa +=1; // increament 
+}
+
+//conditions : if one thing happens then another thing happens, but if first thing does not happen then else will happen.
+
+let cc=10;
+
+if (cc>10){
+
+    document.write("excellent");
+}
+else{
+    document.write("Very good");
+}
+
+
+//functions : to do some work 
+// functions : w ecan create our own function to store the code. 
+
+function nn(){
+
+    //here we can store anything loops, conditions...
+}
+
+
+nn()
+
+
+//variable store one value 
+//function stores all code conditions, loop, array
+//arrays : stores values  lot of value  numbers, strings, boolean value
+//[] is used 
+
+
+let aar1=[12, 89, 10,15, "hh", True]
+
+document.write(aar1);
+
+
+</script>
+
+<!---  Bootstrap
+
+Bootstrap is a. advance CSS  which is used to add more better CSS style porperties. 
+
+here we use classnames. 
+
+to use bootstrap copy n paste below links in head tag
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+To use Bootstrap properties we can use from w3school
+style forms
+style text
+style button 
+style slider carousel
+style navigation bar 
+
+
+
+-->
+</body>
+</html>
